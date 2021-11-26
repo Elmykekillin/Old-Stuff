@@ -1,0 +1,32 @@
+.mycontainer{
+border: 2px solid;
+height: 90vh;
+background-image: url("https://scontent.fhmo1-1.fna.fbcdn.net/v/t1.6435-9/170795324_1566817293508846_6995658451948570480_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=DnHowMwlksQAX-b8SDv&_nc_oc=AQmUGJgU4VUURdHsyjmBOqyp_BhCAKmrwFGI92EnNi9O4bffvZbDpZO5YgWOSH6hnMeRr8DFG5Px388-NyKdauy1&_nc_ht=scontent.fhmo1-1.fna&oh=14b7ef6e6982b379fa7714d68b1af2b2&oe=60DC99EE");
+
+}
+
+.mycontainer2{
+height: 60%;
+width: 100%;
+
+
+}
+.mycarusel{
+width: 100%;
+height: 50%;
+border: 2px solid;
+
+}
+.mymenu{
+    border: 2px solid;
+    height: 90vh;
+    background-image: url("https://scontent.fhmo1-1.fna.fbcdn.net/v/t1.6435-9/170795324_1566817293508846_6995658451948570480_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=DnHowMwlksQAX-b8SDv&_nc_oc=AQmUGJgU4VUURdHsyjmBOqyp_BhCAKmrwFGI92EnNi9O4bffvZbDpZO5YgWOSH6hnMeRr8DFG5Px388-NyKdauy1&_nc_ht=scontent.fhmo1-1.fna&oh=14b7ef6e6982b379fa7714d68b1af2b2&oe=60DC99EE");
+    
+
+}
+.my1{
+width: 20%;
+height: 20%;
+
+
+}

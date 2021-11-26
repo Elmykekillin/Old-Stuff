@@ -1,0 +1,232 @@
+@media only screen and (min-width:320px) {
+  
+.a{
+width: 100%;
+height: 100%;
+background-color: black;
+}
+
+    .barra{display: flex;
+       background-color: white;
+       height: 5rem;
+       width: 100vw;
+       top: 0%;
+       image-resolution: 80px;
+    font-size: 1rem;
+    font-style: italic;
+   } 
+.parrafo1{display: flex;
+    background-color:#ffa500;
+    height: 5rem;
+    width:100vw;
+    font-size: 13px;
+    position: sticky;
+    top: 0%;
+    flex-direction: row;    
+    justify-content: space-around;
+
+}
+.parrafo2{
+    height: 200rem;
+    width: 100vw;
+    position: static;
+    background-image: url(https://scontent.fhmo1-1.fna.fbcdn.net/v/t1.6435-9/170795324_1566817293508846_6995658451948570480_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=ZKp_CdctS4kAX-KVH-T&_nc_oc=AQm7XHSMitrsPNGRaowupd-3iZW0s4Doxd_YPPGnvFqejDORhdjRBof5YKqj1C4WUTjM1E64VuSOUWRAaUTZAOy7&_nc_ht=scontent.fhmo1-1.fna&oh=de0207d3b1fa41d74ea45aa335dc0a1d&oe=60D4B0EE);
+font-size: 1rem;
+font-style: oblique;
+scrollbar-color: orange;
+   
+}
+.parrafo3{display: flex;
+    background-color: lightgray;
+    height: 60px;
+    width: 100vw;
+    position:fixed;
+    bottom: 0;
+
+}
+
+.presentacion{
+    background: 0%;
+    color: darkorange;
+
+}
+.presentacion2{
+    color: black;
+  text-shadow: black;
+
+
+}
+.contenido{display: flex;
+    height: 120rem;
+    width: 100vw;
+    background-color: rgba(210, 105, 30,0.5);
+    position: absolute;
+    top: 415px;
+    
+}
+.footer{display: flex;
+    font-size: 50%;
+    position: fixed;
+    top: 840px;
+    bottom: 0%;
+}
+
+}
+@media only screen and (min-width:480px){
+
+    .barra{
+        background-color: black;
+    }
+
+ .barra{display: flex;
+       background-color: black;
+       height: 5rem;
+       width: 100vw;
+       top: 0%;
+       image-resolution: 80px;
+    font-size: 1rem;
+    font-style: italic;
+   } 
+.parrafo1{display: flex;
+    background-color:#ffa500;
+    height: 5rem;
+    width:100vw;
+    font-size: 13px;
+    position: sticky;
+    top: 0%;
+    flex-direction: row;    
+    justify-content: space-around;
+
+}
+.parrafo2{
+    height: 200rem;
+    width: 100vw;
+    position: static;
+    background-image: url(https://scontent.fhmo1-1.fna.fbcdn.net/v/t1.6435-9/170795324_1566817293508846_6995658451948570480_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=ZKp_CdctS4kAX-KVH-T&_nc_oc=AQm7XHSMitrsPNGRaowupd-3iZW0s4Doxd_YPPGnvFqejDORhdjRBof5YKqj1C4WUTjM1E64VuSOUWRAaUTZAOy7&_nc_ht=scontent.fhmo1-1.fna&oh=de0207d3b1fa41d74ea45aa335dc0a1d&oe=60D4B0EE);
+font-size: 1rem;
+font-style: oblique;
+scrollbar-color: orange;
+   
+}
+.parrafo3{display: flex;
+    background-color: lightgray;
+    height: 60px;
+    width: 100vw;
+    position:fixed;
+    bottom: 0;
+
+}
+
+.presentacion{
+    background: 0%;
+    color: darkorange;
+
+}
+.presentacion2{
+    color: black;
+  text-shadow: black;
+
+
+}
+.contenido{display: flex;
+    height: 20rem;
+    width: 50%;
+    background-color: rgba(128, 76, 39, 0.5);
+    position: absolute;
+    top: 415px;
+    align-content: space-around;
+    flex-direction: row;
+align-content: space-between;
+}
+.footer{
+    font-size: 50%;
+}
+.olympus{
+    color: white;
+}
+.contenido1{
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+
+}
+
+@media only screen and (min-width:1024px){
+
+    .barra{
+        background-color: black;
+    }
+
+ .barra{display: flex;
+       background-color: black;
+       height: 5rem;
+       width: 100vw;
+       top: 0%;
+       image-resolution: 80px;
+    font-size: 1rem;
+    font-style: italic;
+   } 
+.parrafo1{display: flex;
+    background-color:#ffa500;
+    height: 100vh;
+    width:5rem;
+    font-size: 13px;
+    position: sticky;
+    top: 0%;
+    flex-direction: row;    
+    justify-content: space-between;
+    flex-direction: column;
+}
+.parrafo2{
+    height: 200rem;
+    width: 100vw;
+    position: static;
+    background-image: url(https://scontent.fhmo1-1.fna.fbcdn.net/v/t1.6435-9/170795324_1566817293508846_6995658451948570480_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=ZKp_CdctS4kAX-KVH-T&_nc_oc=AQm7XHSMitrsPNGRaowupd-3iZW0s4Doxd_YPPGnvFqejDORhdjRBof5YKqj1C4WUTjM1E64VuSOUWRAaUTZAOy7&_nc_ht=scontent.fhmo1-1.fna&oh=de0207d3b1fa41d74ea45aa335dc0a1d&oe=60D4B0EE);
+font-size: 1rem;
+font-style: oblique;
+scrollbar-color: orange;
+   
+}
+.parrafo3{display: flex;
+    background-color: lightgray;
+    height: 60px;
+    width: 100vw;
+    position:static;
+    bottom: 0;
+
+}
+
+.presentacion{
+    background: 0%;
+    color: darkorange;
+    font-size: 30px;
+
+}
+.presentacion2{
+    color: black;
+  text-shadow: black;
+
+
+}
+.contenido{display: flex;
+    height: 120rem;
+    width: 100rem;
+    background-color: rgba(210, 105, 30,0.5);
+    position: fixed;
+    top: 89px;
+    left: 88px;
+}
+.footer{
+    font-size: 50%;
+}
+.olympus{
+    color: white;
+}
+
+
+
+
+}

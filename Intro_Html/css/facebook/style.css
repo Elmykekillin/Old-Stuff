@@ -1,0 +1,757 @@
+
+@media only screen and (min-width:0px) {
+
+
+    .contenedorglobal{display: inline-flex;
+        height: 90vh;
+        width: 100vw;
+    background-color:#f6f9ff;
+    
+    
+    }
+    .seccion{display: flex;
+        width: 100vh;
+        height: 50%;
+    
+    
+    }
+    .top{display: flex;
+        width: 100%;
+        height: 5rem;
+        background-color: cornflowerblue;
+    position: fixed;
+    top: 0%;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    transition: linear 1s;
+    }
+    .facebook{
+    color: white;
+    size: 50%;
+
+   
+    }
+    
+    .login{
+    height: 40%;
+    width: 80%;
+    background-color: white;
+    position: fixed;
+    left: 10%;
+top: 10%;
+border-radius: 10%;
+border:5px rgba(187, 187, 187,0.1)solid;
+box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+transition: linear 1s;
+}
+
+    
+    
+    .correo{
+        position: fixed;
+        top: 30%;
+        left: 20%;
+        right: auto;
+        width: 60%;
+        height: 2%;
+        font-size: 110%;
+        border-radius: 6px;
+        background-color: azure;
+        transition: linear 1s;
+    }
+    
+    .contra{
+    position: fixed;
+    left:20%;
+    top: 35%;
+    right: auto;
+    width: 60%;
+    height: 2%;
+    font-size: 110%;
+    border-radius: 6px;
+    background-color: azure;
+    transition: linear 1s;
+    }
+    .boton{
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    right: auto;
+    width: 50%;
+    height: 4%;
+    background-color: #1877f2;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 110%;
+    color: white;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    transition: linear 1s;
+
+    }
+    
+    .icono{
+    
+            position: fixed;
+            height: 70px;
+            width: auto;
+            top: 15%;
+            left: 40%;
+            right: auto;
+            border-color: black;
+            border-radius: 3px;
+            transition: linear 1s;
+    }
+    
+    .iconoborder{
+        border: 5px #e7e7e7 solid;
+            position: fixed;
+            height: 80px;
+            width: 80px;
+            top: 13%;
+            left: 39%;
+            right: auto;
+            border-radius: 10%;
+            transition: linear 1s;
+        
+        }
+
+.footer{
+    display:flex ;
+    position: fixed;
+    bottom: 1%;
+    width: 100vw;
+    height: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+align-content: flex-start;
+    color:#1379ff;
+    transition: linear 1s;
+
+}
+.textologin{
+position: fixed;
+left: 24%;
+right:auto;
+top: 25%;
+font-size: 150%;
+transition: linear 1s;
+
+}
+.textocontra{
+    position: fixed;
+    left: 65%;
+    right:auto;
+    top: 24%;
+    font-size: 25px;
+    transition: linear 1s;
+    
+    
+}
+.registro{
+
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 35%;
+    height: 20%;
+    position: fixed;
+    top: 40%;
+    left:60%;
+    right: auto;
+    transition: linear 1s;
+    
+}
+
+
+
+.btnr{
+    position: fixed;
+    top: 55%;
+    left: 22%;
+    right: auto;
+    width: 60%;
+    height: 5%;
+    background-color: #42b72a;
+    border-radius: 6px;
+   color: white;
+   font-size: 120%;
+   outline: none;
+   transition: linear 1s;
+   box-shadow: inset 0 0 0 0 ;
+   text-shadow: 2px 2px rgba(0,0,0,0.5);
+
+}
+
+.btnr:hover{
+    box-shadow:inset 100% 0 0 0 #fff;
+    color: #fff;
+    cursor: pointer;
+
+    
+    
+    }
+    
+
+.linkcontra{
+position: fixed;
+top: 45%;
+left: 20%;
+right: 1%;
+color: #1379ff;
+font-size: 120%;
+transition: linear 1s;
+
+}
+
+
+
+.español{
+color:#1379ff ;
+
+
+}
+
+.ingles{
+    color:#1379ff ;
+ 
+    }
+    .aleman{
+        color:#1379ff ;
+      
+        }
+        .japones{
+            color:#1379ff ;
+          
+            }
+            .portugues{
+                color:#1379ff ;
+            
+                }
+
+                .logofb{
+                    position: fixed;
+                    height: 15%;
+                    width: 30%;
+                    bottom: 5%;
+                    left: 0%;
+                    transition: linear 1s;
+                                    }
+                                    .bienvenido{
+                                        position: fixed;
+                                        width: 40%;
+                                        height: 30%;
+                                     bottom: -100%;
+                                        left: 22%;
+                                        transition: linear 1s;
+                                        
+                                        
+                                        }   
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:720px) {
+
+
+    .contenedorglobal{display: inline-flex;
+        height: 90vh;
+        width: 100vw;
+    background-color:#f6f9ff;
+    
+    
+    }
+    .seccion{display: flex;
+        width: 100vh;
+        height: 50%;
+    
+    
+    }
+    .top{display: flex;
+        width: 100%;
+        height: 5rem;
+        background-color: cornflowerblue;
+    position: fixed;
+    top: 0%;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    transition: linear 1s;
+    }
+    .facebook{
+    color: white;
+    size: 50%;
+
+    }
+    
+    .login{
+    height: 70%;
+    width:88%;
+    background-color: white;
+    position: fixed;
+    left: 5%;
+top: 10%;
+border-radius: 10%;
+border:5px rgba(187, 187, 187,0.1)solid;
+box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+transition: linear 1s;
+}
+
+    
+    
+    .correo{
+        position: fixed;
+        top: 30%;
+        left: 15%;
+        right: auto;
+        width: 65%;
+        height: 5%;
+        font-size: 110%;
+        border-radius: 6px;
+        background-color: azure;
+        transition: linear 1s;
+    }
+    
+    .contra{
+    position: fixed;
+    left:15%;
+    top: 40%;
+    right: auto;
+    width: 65%;
+    height: 5%;
+    font-size: 110%;
+    border-radius: 6px;
+    background-color: azure;
+    transition: linear 1s;
+    }
+    .boton{
+    position: fixed;
+    top: 47%;
+    left: 15%;
+    right: auto;
+    width: 50%;
+    height: 4%;
+    background-color: #1877f2;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 110%;
+    color: white;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    transition: linear 1s;
+
+    }
+    
+    .icono{
+    
+            position: fixed;
+            height: 100px;
+            width: auto;
+            top: 15%;
+            left: 9.6%;
+            right: auto;
+            border-color: black;
+            border-radius: 3px;
+            transition: linear 1s;
+    }
+    
+    .iconoborder{
+        border: 5px #e7e7e7 solid;
+            position: fixed;
+            height: 110px;
+            width: 110px;
+            top: 13%;
+            left: 9.5%;
+            right: auto;
+            border-radius: 10%;
+            transition: linear 1s;
+        
+        }
+
+.footer{
+    display:flex ;
+    position: fixed;
+    bottom: 1%;
+    width: 100vw;
+    height: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+align-content: flex-start;
+    color:#1379ff;
+    transition: linear 1s;
+
+}
+.textologin{
+position: fixed;
+left: 25%;
+right:auto;
+top: 22%;
+transition: linear 1s;
+
+
+
+}
+.textocontra{
+    position: fixed;
+    left: 65%;
+    right:auto;
+    top: 24%;
+    font-size: 25px;
+    
+    
+}
+.registro{
+    border-top:#e2e6ec solid ;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+    height: 20%;
+    position: fixed;
+    top: 53%;
+    left:5%;
+    right: auto;
+    transition: linear 1s;
+}
+
+
+
+.btnr{
+    position: fixed;
+    top: 60%;
+    left: 21%;
+    right: auto;
+    width: 60%;
+    height: 5%;
+    background-color: #42b72a;
+    border-radius: 6px;
+   color: white;
+   font-size: 120%;
+   outline: none;
+   transition: linear 1s;
+   box-shadow: inset 0 0 0 0 ;
+   text-shadow: 2px 2px rgba(0,0,0,0.5);
+
+}
+
+.btnr:hover{
+    box-shadow:inset 100% 0 0 0 #fff;
+    color: #fff;
+    cursor: pointer;
+
+    
+    
+    }
+    
+
+.linkcontra{
+position: fixed;
+top: 55%;
+left: 25%;
+right: 1%;
+color: #1379ff;
+font-size: 120%;
+transition: linear 1s;
+}
+
+
+
+
+.español{
+color:#1379ff ;
+
+
+}
+
+.ingles{
+    color:#1379ff ;
+ 
+    }
+    .aleman{
+        color:#1379ff ;
+      
+        }
+        .japones{
+            color:#1379ff ;
+          
+            }
+            .portugues{
+                color:#1379ff ;
+            
+                }
+                .logofb{
+                    position: fixed;
+                    height: 20%;
+                    width: 30%;
+                    top: 8%;
+                    left: 25%;
+                    transition: linear 1s;
+                                    }
+                                    .bienvenido{
+                                        position: fixed;
+                                        width: 40%;
+                                        height: 30%;
+                                        top: 26%;
+                                        left: 22%;
+                                        transition: linear 1s;
+                                        
+                                        
+                                        }                                      
+
+ }               
+
+
+
+
+
+
+
+@media only screen and (min-width:1020px) {
+
+
+    .contenedorglobal{display: inline-flex;
+        height: 90vh;
+        width: 100vw;
+    background-color:#f6f9ff;
+    
+    
+    }
+    .seccion{display: flex;
+        width: 100vh;
+        height: 50%;
+    
+    
+    }
+    .top{display: flex;
+        width: 100%;
+        height: 5rem;
+        background-color: cornflowerblue;
+    position: fixed;
+    top: 0%;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    transition: linear 1s;
+    }
+    .facebook{
+    color: white;
+    size: 50%;
+
+    }
+    
+    .login{
+    height: 70%;
+    width: 40%;
+    background-color: white;
+    position: fixed;
+    left: 56%;
+top: 10%;
+border-radius: 10%;
+border:5px rgba(187, 187, 187,0.1)solid;
+box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+transition: linear 1s;
+}
+
+    
+    
+    .correo{
+        position: fixed;
+        top: 20%;
+        left: 65%;
+        right: auto;
+        width: 25%;
+        height: 5%;
+        font-size: 110%;
+        border-radius: 6px;
+        border-style: none;
+        background-color: azure;
+        transition: linear 1s;
+    }
+    
+    .contra{
+    position: fixed;
+    left:65%;
+    top: 28%;
+    right: auto;
+    width: 25%;
+    height: 5%;
+    font-size: 110%;
+    border-radius: 6px;
+    border-style: none;
+    background-color: azure;
+    transition: linear 1s;
+    }
+    .boton{
+    position: fixed;
+    top: 35%;
+    left: 65%;
+    right: auto;
+    width: 25%;
+    height: 4%;
+    background-color: #1877f2;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 110%;
+    color: white;
+    border-style: inherit;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    transition: linear 1s;
+
+    }
+    
+    .icono{
+    
+            position: fixed;
+            height: 100px;
+            width: auto;
+            top: 15%;
+            left: 9.6%;
+            right: auto;
+            border-color: black;
+            border-radius: 3px;
+            transition: linear 1s;
+    }
+    
+    .iconoborder{
+        border: 5px #e7e7e7 solid;
+            position: fixed;
+            height: 110px;
+            width: 110px;
+            top: 13%;
+            left: 9.5%;
+            right: auto;
+            border-radius: 10%;
+            transition: linear 1s;
+        
+        }
+
+.footer{
+    display:flex ;
+    position: fixed;
+    bottom: 1%;
+    width: 100vw;
+    height: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+align-content: flex-start;
+    color:#1379ff;
+    transition: linear 1s;
+
+}
+.textologin{
+position: fixed;
+left: 65%;
+right:auto;
+top: 15%;
+transition: linear 1s;
+
+}
+.textocontra{
+    position: fixed;
+    left: 65%;
+    right:auto;
+    top: 24%;
+    font-size: 25px;
+    transition: linear 1s;
+    
+    
+}
+.registro{
+    border-top:#e2e6ec solid ;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 35%;
+    height: 20%;
+    position: fixed;
+    top: 50%;
+    left:60%;
+    right: auto;
+    transition: linear 1s;
+}
+
+
+
+.btnr{
+    position: fixed;
+    top: 55%;
+    left: 67%;
+    right: auto;
+    width: 20%;
+    height: 5%;
+    background-color: #42b72a;
+    border-radius: 6px;
+   color: white;
+   font-size: 120%;
+   outline: none;
+   transition: linear 1s;
+   box-shadow: inset 0 0 0 0 ;
+   text-shadow: 2px 2px rgba(0,0,0,0.5);
+
+}
+
+.btnr:hover{
+    box-shadow:inset 100% 0 0 0 #fff;
+    color: #fff;
+    cursor: pointer;
+
+    
+    
+    }
+    
+
+.linkcontra{
+position: fixed;
+top: 45%;
+left: 70%;
+right: 1%;
+color: #1379ff;
+font-size: 120%;
+transition: linear 1s;
+}
+
+
+
+
+.español{
+color:#1379ff ;
+
+
+}
+
+.ingles{
+    color:#1379ff ;
+ 
+    }
+    .aleman{
+        color:#1379ff ;
+      
+        }
+        .japones{
+            color:#1379ff ;
+          
+            }
+            .portugues{
+                color:#1379ff ;
+            
+                }
+
+.logofb{
+position: fixed;
+height: 20%;
+width: 20%;
+top: 15%;
+left: 20%;
+transition: linear 1s;
+                }
+.bienvenido{
+position: fixed;
+width: 40%;
+height: 30%;
+top: 26%;
+left: 22%;
+transition: linear 1s;
+
+
+}                
+}
+

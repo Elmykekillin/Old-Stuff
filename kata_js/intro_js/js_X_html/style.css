@@ -1,0 +1,169 @@
+.main{ display:flex;
+width: 100vw;
+height: 100vh;
+padding: 0;
+background-image: url("https://th.bing.com/th/id/R.60ad90969755fadcafa814d0cb471273?rik=tfjWfhHKXBcBqQ&pid=ImgRaw");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.contenido{display: flex;
+    border-radius: 20px;
+height: 75%;
+width: 40%;
+background-color:rgba(255, 255, 255,0.9);
+position: absolute;
+left: 30%;
+right: 30%;
+top: 15%;
+}
+
+.myh1{position: absolute;
+    left: 15%;
+    text-align: center;
+}
+
+.in1{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 5%;
+    width: 70%;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.in2{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 5%;
+    width: 70%;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+.in3{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    height: 5%;
+    width: 70%;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.ask{
+position: absolute;
+top: 37%;
+left: 20%;
+
+}
+
+.check{
+    position: absolute;
+    top: 42%;
+    left: 20%;
+}
+
+.si{
+    position: absolute;
+    top: 41%;
+    left: 18%;
+}
+.check2{
+    position: absolute;
+    top: 42%;
+    left: 25%;
+}
+.no{
+    position: absolute;
+    top: 41%;
+    left: 22%;
+}
+.mybtn{
+    position:absolute;
+    top: 36%;
+    left: 75%;
+    width: auto;
+    display:inline-block;
+    color:#ecf0f1;
+    text-decoration:none;
+    border-radius:5px;
+    border:solid 1px #f39c12;
+    background:#e67e22;
+    text-align:center;
+    padding:16px 18px 14px;
+    margin: 12px;
+    
+    -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+      
+    -webkit-box-shadow: 0px 6px 0px #d35400;
+    -moz-box-shadow: 0px 6px 0px #d35400;
+    box-shadow: 0px 6px 0px #d35400;
+  }
+  
+  .mybtn:active{
+      -webkit-box-shadow: 0px 2px 0px #d35400;
+      -moz-box-shadow: 0px 2px 0px #d35400;
+      box-shadow: 0px 2px 0px #d35400;
+      position:absolute;
+      top: 37%;
+  }
+
+  .mybtn2{
+    position:absolute;
+    top: 100%;
+    left: 0%;
+    width: auto;
+    display:inline-block;
+    color:#ecf0f1;
+    text-decoration:none;
+    border-radius:5px;
+    border:solid 1px #f39c12;
+    background:#e67e22;
+    text-align:center;
+    padding:16px 18px 14px;
+    margin: 12px;
+    
+    -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+      
+    -webkit-box-shadow: 0px 6px 0px #d35400;
+    -moz-box-shadow: 0px 6px 0px #d35400;
+    box-shadow: 0px 6px 0px #d35400;
+  }
+  
+  .mybtn2:active{
+      -webkit-box-shadow: 0px 2px 0px #d35400;
+      -moz-box-shadow: 0px 2px 0px #d35400;
+      box-shadow: 0px 2px 0px #d35400;
+      position:absolute;
+      top: 99%;
+  }
+
+  .mycard{position: absolute;
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+     
+  }
+
+  .myimg{
+      border-radius: 10px;
+      border: 2px solid;
+      position: absolute;
+      left: 60%;
+      top: 25%;
+      image-resolution: 10px;
+  }

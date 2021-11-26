@@ -1,0 +1,21 @@
+
+.my-container {
+    border: solid 2px;
+    height: 70vh;
+}
+
+.my-row {
+    border: blue solid 1px;
+    height: 30vh;
+}
+
+.hija {
+    border: solid 2px hotpink;
+    height: 50%;
+}
+.jmcontainer1{
+width: 100%;
+height: 100%;
+background-image: url("https://scontent.fhmo1-1.fna.fbcdn.net/v/t1.6435-9/170795324_1566817293508846_6995658451948570480_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=e3f864&_nc_ohc=NRX9IvghVXMAX-_mbGe&_nc_oc=AQn5JR7OQ00NEXtMaQrGU5L4jLE_1lYfZJ2qz84FwrBsP0_wlm-9usfTObXaV9_j-Es7AqBe-dEw9qKDRSjDHiq-&_nc_ht=scontent.fhmo1-1.fna&oh=e861313e6120ff3e22bad4b7643f936c&oe=60DC99EE");
+
+}

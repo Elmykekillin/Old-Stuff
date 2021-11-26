@@ -1,0 +1,98 @@
+  .body{
+display: flex;
+height: 100vh;
+padding: 0%;
+margin: 0%;
+  }
+.azul1 {
+  background-color: #020280;
+  
+    height: 800px;
+    width: 100%; 
+    display: flex;
+    /* hace mis elementos en columna  */
+    flex-direction:row;
+    /* acomoda los elementos en el eje x  */
+    justify-content: center;
+    /* acomoda los elementos en el eje y  */
+   justify-content: space-between;}
+
+.blanco1 {
+  display: inline-flex;
+  background-color: white;
+  border: 2px solid black;
+    width: 30%;
+    height: 90%;
+
+}
+
+.azul2 {background-color: #020280;
+ 
+  height: 800px;
+  width: 100%; 
+  display: inline-flex;
+  /* hace mis elementos en columna  */
+  flex-direction:row-reverse;
+  /* acomoda los elementos en el eje x  */
+  justify-content: center;
+  /* acomoda los elementos en el eje y  */
+ justify-content: space-between;}
+    
+    .blanco3{
+      display: inline-flex;
+      background-color: white;
+      border: 2px solid black;
+     width: 65%;
+     height: 100%;
+     justify-content: flex-end
+   }
+
+   .blanco4{display:inline-flex;
+    background-color: white;
+   width: 30%;
+   height: 100%;
+   align-self: flex-start;
+  justify-self: flex-start;
+  border: 2px solid black;}
+      
+   .blanco2 {display: inline-flex;
+    background-color: white;
+    border: 2px solid black;
+      width: 65%;
+      height: 90%;
+      align-self: flex-start;
+      justify-content: flex-end;
+      
+}
+.rojo1{
+background-color:red;
+display: inline-flex;
+   border: 2px solid red;
+  width: 90%;
+  height: 90%;
+  border: 2px solid black;
+}
+.rojo2{
+  background-color:red;
+  display: inline-flex;
+     border: 2px solid red;
+    width: 95%;
+    height: 90%;
+  align-self: flex-start;
+  border: 2px solid black;
+  }
+  .rojo3{background-color:red;
+    display: inline-flex;
+       border: 2px solid red;
+      width: 95%;
+      height: 90%;
+    align-self: flex-end;
+    border: 2px solid black;}
+
+      .rojo4{ background-color:red;
+        display: inline-flex;
+           border: 2px solid red;
+          width: 90%;
+          height: 90%;
+          border: 2px solid black;
+        align-self: flex-end;}

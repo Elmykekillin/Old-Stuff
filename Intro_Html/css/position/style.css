@@ -1,0 +1,49 @@
+.body{margin: 0;
+    padding: 0%;
+    height: 200vh;
+
+}
+
+.cuadro1{
+border: 2px solid;
+background-color: red;
+height: 20vh;
+width: 35vh;
+position: absolute;
+bottom: 45%;
+top: 15%;
+left: 22%;
+
+}
+.cuadro3{
+    border: 2px solid;
+    background-color: salmon;
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    bottom: 45%;
+    top: 45%;
+    left: 20%;
+    right: 35%;}
+    
+.cuadro2{
+    border: 2px solid;
+    background-color: pink;
+    height: 25%;
+    width: 30%;
+    position: absolute;
+bottom: 45%;
+top: 20;
+left: 30%;
+right: 40px;
+}
+.cuadro4{
+    border: 2px solid;
+    background-color: plum;
+    height: 50vh;
+    width: 30vh;
+    position: absolute;
+    bottom: 45%;
+    top: 15;
+    left: 55%;}
+    
