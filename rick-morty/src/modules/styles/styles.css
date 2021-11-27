@@ -1,0 +1,213 @@
+body{
+padding: 0%;
+margin: 0%;
+height: 100vh;
+width: 100vw;
+background-color: rgb(68, 181, 185);
+}
+
+#root{display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.navBar{position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 15%;
+    width: 100%;
+    background-color: rgba(0, 250, 154,0.5);
+    border: 5px mediumspringgreen solid;
+}
+
+.home{position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 80%;
+}
+
+
+.logo{position:relative;
+    height:150%;
+    left: 35%;
+    top: -25%;
+
+}
+
+.search{position: absolute;
+    top: 35%;
+    right: 10%;
+width: 20%;
+height: 20%;
+border-radius: 20px;
+border: none;
+
+}
+
+.searchBtn{position: absolute;
+    top: 36%;
+    right: 4%;
+    height: 20%;
+    width: 5%;
+    border-radius: 20px;
+    border: none;
+    background-color: mediumspringgreen;
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.searchBtn:hover{
+  cursor: pointer;
+  background-color: rgb(4, 221, 138);
+
+}
+
+.searchBtn:active{position: absolute;
+    top: 36%;
+    right: 3.5%;
+    height: 20%;
+    width: 5%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(5, 170, 107);
+    box-shadow: 0px 0px 0px black;
+
+}
+
+
+/*Card Styles */
+
+.Card{
+    margin-top: 10%;
+    background-color: cadetblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+    border-radius:20px;
+    box-shadow: 10px 10px 10px black;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 35%;
+    height:60%;
+}
+
+.image{position:relative;
+    top: 5%;
+    left: 1%;
+    height: 40%;
+    width: 35%;
+    border-radius: 20px;
+    border: 3px solid;
+}
+
+.name{position: relative;
+    margin:0%;
+    top: 2.5%;
+    left: 25%;
+
+}
+
+.status{position: relative;
+    left: 40%;
+    top: -35%;
+}
+
+.species{position: relative;
+    left: 40%;
+    top: -35%;
+}
+
+.origin{position: relative;
+    left: 40%;
+    top: -35%;
+}
+
+.episodes{position: relative;
+    left: 40%;
+    top: -35%;}
+
+.episode{position: relative;
+    left: 5%;
+    top: -35%;
+}
+
+.episode2{position: relative;
+    left: 5%;
+    top: -35%;
+}
+
+.episode3{position: relative;
+    left: 5%;
+    top: -35%;
+}
+
+.episode4{position: relative;
+    left: 5%;
+    top: -35%;
+}
+
+.episode5{position: relative;
+    left: 5%;
+    top: -35%;
+}
+
+.siguiente{position:absolute;
+    left: 27%;
+    top: 58%; 
+    width: 12.5%;
+    height: 5%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 2px black;
+}
+
+
+/*Buttons Back  Next */
+
+.siguiente:active{
+    position: absolute;
+    left: 27.5%;
+    top: 58%; 
+    width: 12.5%;
+    height: 5%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 0px black;
+}
+
+.anterior{position: absolute;
+    left: 27%;
+    top: 68%; 
+    width: 12.5%;
+    height: 5%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 2px black;
+
+}
+
+.anterior:active{ position: absolute;
+    left: 27.5%;
+    top: 68%; 
+    width: 12.5%;
+    height: 5%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 0px black;
+}
+
+
+.footer{display: flex;
+ flex-direction: row;
+ align-content: space-between;
+ justify-content: space-around;
+ margin-top: 5%;
+    height: 10%;
+    width: 100%;
+    background-color: mediumspringgreen;
+}

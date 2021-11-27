@@ -1,0 +1,155 @@
+#root{
+    width: 100vw;
+    height: 100vh;
+    background-color:whitesmoke;
+}
+
+.list{display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.titulos{position: fixed;
+    top: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    font-size:x-small;
+    width: 100%;
+}
+h1{
+    width: 16.6%;
+
+}
+
+.lista{display: flex;
+    flex-direction: row;
+    top: 25%;
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    border: 2px solid;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.Navhome{display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 10%;
+   height: 80%;
+   font-size: x-large;
+}
+
+.Navcreate{display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 10%;
+   height: 80%;
+   font-size: x-large;
+}
+
+.Navupdate{display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 10%;
+   height: 80%;
+   font-size: x-large;
+}
+
+.Navread{display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 10%;
+   height: 80%;
+   font-size: x-large;
+}
+
+.Navdeleate{display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 10%;
+   height: 80%;
+   font-size: x-large;
+}
+
+.navBar{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-direction:row;
+    justify-content:space-around;
+    border: 2px solid;
+
+}
+
+div:not(#nombre,#apellido,#nacionalidad,#genero,#comentario,#id,#edad,#lista,#root,.titulos){
+    text-align: center;
+    font-size:x-small;
+    border-bottom: 2px solid;
+    width: 100%;
+}
+
+.nombre{display: flex;
+height: 10000%;
+width: 16%;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+.apellido{display: flex;
+    height: 10000%;
+    width: 16%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.nacionalidad{display: flex;
+    height: 10000%;
+    width: 16%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.genero{display: flex;
+    height: 10000%;
+    width: 16%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+ 
+}
+.comentario{display: flex;
+    height: 10000%;
+    width: 16%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.id{display: flex;
+    height: 10000%;
+    width: 16%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.edad{display: flex;
+    height: 10000%;
+    width: 16%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
